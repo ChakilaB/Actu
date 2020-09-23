@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Site Actuactu</title>
+</head>
+
+  
+</header>
+<body>
+   
+    <!-- I. Réalisation du rectangle d'un bandeau-->
+    <section id=bandeau></section>
+    
+    <!-- II. Création de la nav barre-->
+    <nav>
+        <ul>
+            <li><a href="#Accueil" class="Accueil">Accueil</a></li>
+            <li><a href="#Rechecher">Rechercher</a></li>
+            <li><a href="#A propos">A propos</a></li>
+
+    <!--J'intitule cette liste seule pour pouvoir la positionné à droite de ma page-->
+            <li class="seul"><a href="#Se connecter">Se connecter</a></li> 
+            
+            <!--Création de notre bouton-->
+            <button>S'inscrire</button>
+        </ul>
+    </nav>
+
+    <!--III. Mise en place du logo et de la barre de recherche-->
+    <section id="Partie3">
+
+        <!--Logo-->
+        <img src="logo.png" alt="une image">
+
+        <!--barre de recherche-->
+        <input type="search" name="Rachercher" id="input" placeholder="Rechercher un livre">
+        <!--Le bouton-->
+    <button>GO</button>
+    </section>
+
+<!--IV. Mise en place des livres recommandés-->
+
+    <section id="Partie4">
+
+<!--ajout de l'icone et du titre-->
+   
+     <img src="petitlivre.png" alt="une image">
+     <h1>
+        Recommandation
+    </h1>
+</section>
+
+<!--Création de la flex box-->
+    <div class="box">
+        <div><img src="livre1.png" alt="une image">
+            <ul>
+            <li>
+            <a href="lien">Learning </a>
+            </li>
+            </ul>
+        </div>
+        <div><img src="livre2.png" alt="une image"></div>
+        <div><img src="livre3.png" alt="une image"></div>
+      </div> 
+
+     
+    <!--V. Catalogue de livre à moins de 20 euros-->
+    
+    <section id="Partie5">
+
+    <!--Création titre et icone-->
+        <img src="petitlivre2.png" alt="une image">
+        <h2>Les livres à moins de <span>20€</span></h2> 
+   </section>
+    <!--Création de div afin de pouvoir constituer des blocs--> 
+
+        <div class="box2"></div>
+
+        <div><img src="livrelivre.png" alt="une image" width="50px" height="50px"></div>
+
+        <div></div>
+
+        <div></div>
+
+        <div></div>
+
+        <div></div>
+   
+    
+    <footer>
+
+    </footer>
+
+    
+</body>
+</html>

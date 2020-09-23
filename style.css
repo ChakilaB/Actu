@@ -1,0 +1,222 @@
+/**************************************** Corp de la page*************************************/
+
+*{
+    
+    margin: 0;
+    
+}
+body{
+    font-family: 'Roboto';
+}
+
+/*****************************PARTIE 1: Le bandeau de la page*********************************/
+
+
+#bandeau
+{
+margin: 0;
+position: relative;
+width: 1264px;
+padding-right: 30px;
+height: 8px;
+background: #4A3174;
+}
+
+/***********************************PARTIE 2 La nav barre*************************************/
+
+
+
+/* 1. Le paramétrage de ma nav barre*/
+nav{
+   margin: 0;
+   margin-left: 40px;
+   margin-top: 20px;
+   
+}
+/* 2. Le display: inline va me permettre un alignement de ma liste. Je selectionne la nav ainsi que
+la liste*/
+nav li{
+    display:inline;
+    margin-left:40px;
+    
+}
+/* 2. Seul est une classe crée pour pouvoir positionné un élément de la liste*/
+.seul{
+    position: relative;
+    margin:0;
+    margin-left:500px;
+    font-weight: bold;    
+}
+/* 3. Je met en place cette élément afin de supprimer les soulignements des mots de ma liste*/
+nav a{
+    text-decoration: none;
+    color: #9d9d9d;
+}
+/* 4.Le bouton de la nav*/
+
+nav button{
+    position: relative;
+    margin-left: 50px;
+    height: 40px;
+    width: 163px;
+    background: #4A3174;
+    border-radius: 5px;
+    border: #4A3174;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+/* 5.Mettre en couleur Accueil*/
+
+.Accueil{
+    color:#4A3174 ;
+    font-weight: bold;
+}
+
+
+
+/*****************PARTIE 3: Mise en place du logo et de la barre de recherche*****************/
+
+
+/*1. La mise en place du logo*/
+
+#Partie3 img{
+    position: relative;
+    top: 150px;
+    margin-left: 111px;
+
+    
+    
+}
+/*Ma barre de recherche*/
+
+#input{
+    position:relative;
+    margin: 0;
+    height: 40px;
+    width: 441px;
+    border-radius: 3px;
+    left: 300px;
+    border:white;
+    top: 125px;
+    /*Pour rajouter l'ombre à ma barre de recherche*/
+    filter: drop-shadow(5px 5px 5px rgb(216, 215, 215));
+}
+
+/*C'est partit pour le bouton !!*/
+
+#Partie3 button{
+    position: relative;
+    height: 40px;
+    width: 50px;
+    margin-left:250px;
+    background-color: #4A3174 ;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    top: 125px;
+}
+
+
+/***************Partie 4: Mettre les recommandations de livres*******************************/
+
+/* création du titre*/
+
+
+
+#Partie4 h1{
+    position: relative;
+    font-weight: bold;
+    color: #4A3174;
+    margin-left: 200px;
+    top: 200px;
+
+}
+/*Mise en place de l'icone*/
+
+#Partie4 img{
+position: relative;
+display: inline;
+top: 264px;
+left: 135px;
+}
+
+/* Mes images de livres en flexbox*/
+.box {
+    display: flex;
+    flex-direction:row;
+    margin-top: 300px;
+    width: 50px;
+    
+  }
+
+.box div {
+  
+    flex-basis: 400px;
+    margin-left: 40px;
+    border-radius: 3px;
+    border-color: white;
+    box-shadow: 3px 3px 12px rgb(212, 212, 212);
+}
+
+
+/**********************************PARTIE 5: Catalogue :Les livres à moins de 20***********************/
+
+#Partie5 img{
+    position: relative;
+    display: inline;
+    top: 400px;
+    left: 135px;
+}
+
+#Partie5 h2{
+    position: relative;
+    font-weight: bold;
+    color: #4A3174;
+    margin-left: 200px;
+    top: 350px;
+}
+
+/*Mise en couleurs du 20*/
+
+#Partie5 span{
+    color: #eab808;
+}
+
+/*Partit catalogue carré ombré*/
+
+.container{
+
+display: flex;
+flex-direction: column;
+     
+}
+
+.item img{
+    
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    position: relative;
+    top: 500px;
+    left: 162px;
+    padding-left: 1000px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 1px 1px 12px #e9e7e7;
+    margin-top: 50px; 
+}
+
+
+/*On va mettre nos image dans nos carré ombré*/
+
+
+   
+
+    
+ 
