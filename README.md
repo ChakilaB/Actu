@@ -3,7 +3,8 @@
 
 Nous allons réaliser notre site Actuactu. Partit par partit nous allons introduire nos élément. 
 
-1. Pour commencer nous allons l'ajouter sur git hub. 
+1. Pour commencer nous allons l'ajouter sur git hub. Moi qui n'arriver pas du tout à comprendre git hub j'ai enfin pu comprendre en détail git. J'ai pu mettre mon dossier en ligne.
+On peut enfin commencé notre projet.
 
 
 PARTIT 1:
@@ -48,7 +49,9 @@ PARTIE 5:
 
 3. GROSSE DIFFICULTES: C'est peut être bête mais j'ai du mal à comprendre les flex. Je décide donc de revoir mon code mais surtout de faire un exercice. Je suis super en retard mais j'ai besoin de comprendre cette fonction et je pense qu'aprés cela tout ira plus vite étant donné que la base des deux pages est cette fonction.
 
-4. Probléme résolue !!! Revenir sur certaine chose ne m'a pas du tout fait perdre du temps au contraire.  Du coup pour 
+4. Probléme résolue !!! Revenir sur certaine chose ne m'a pas du tout fait perdre du temps au contraire.  Du coup on continue l'aventure. J'ai donc repris ma partie 4 en mettant en place un flexbox ce qui ma permis de réduire considérablement mon code.
+
+5. Je reprend donc ma partie 5. En appliquant la fonction flexbox.
 
 
 

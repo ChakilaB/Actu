@@ -66,6 +66,7 @@ nav button{
     font-weight: bold;
     font-size: 15px;
     
+    
 }
 
 /* 5.Mettre en couleur Accueil*/
@@ -161,6 +162,7 @@ left: 135px;
     border-radius: 3px;
     border-color: white;
     box-shadow: 3px 3px 12px rgb(212, 212, 212);
+    margin-left: 150px;
 }
 
 
@@ -169,7 +171,7 @@ left: 135px;
 #Partie5 img{
     position: relative;
     display: inline;
-    top: 400px;
+    top: 150px;
     left: 135px;
 }
 
@@ -178,7 +180,7 @@ left: 135px;
     font-weight: bold;
     color: #4A3174;
     margin-left: 200px;
-    top: 350px;
+    top: 100px;
 }
 
 /*Mise en couleurs du 20*/
@@ -187,33 +189,43 @@ left: 135px;
     color: #eab808;
 }
 
-/*Partit catalogue carré ombré*/
+/*Partit catalogue carré ombré avec un flex*/
 
-.container{
 
-display: flex;
-flex-direction: column;
-     
-}
+.box2 {
+    display: flex;
+    flex-direction:column;
+    margin-top: 200px;
+    width: 1000px;
+    align-items: center;
+    margin-left:150px;
+  }
 
-.item img{
-    
-    height: 30px;
-    width: 30px;
-    background-color:white;
-    position: relative;
-    top: 500px;
-    left: 162px;
-    padding-left: 1000px;
-    padding-bottom: 100px;
-    border-radius: 10px;
+.box2 div {
+  
+    flex-basis: 120px;
+    border: 5px solid red;
+    margin-top: 50px;
+    border-radius: 3px;
     border-color: white;
-    box-shadow: 1px 1px 12px #e9e7e7;
-    margin-top: 50px; 
+    box-shadow: 3px 3px 12px rgb(212, 212, 212);
+}
+
+/*Placement des textes du bloc*/
+.box2 img{
+position:absolute;
+}
+.box2 a{
+margin-left:58px;
+}
+
+.box2 p{
+margin-left: 99px;
+margin-top: 20px;
 }
 
 
-/*On va mettre nos image dans nos carré ombré*/
+
 
 
    
