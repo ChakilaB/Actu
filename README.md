@@ -1,6 +1,8 @@
 
 #Actu
 
+PARTIE HTML/CSS
+
 Nous allons réaliser notre site Actuactu. Partit par partit nous allons introduire nos élément. 
 
 1. Pour commencer nous allons l'ajouter sur git hub. Moi qui n'arriver pas du tout à comprendre git hub j'ai enfin pu comprendre en détail git. J'ai pu mettre mon dossier en ligne.
@@ -51,8 +53,18 @@ PARTIE 5:
 
 4. Probléme résolue !!! Revenir sur certaine chose ne m'a pas du tout fait perdre du temps au contraire.  Du coup on continue l'aventure. J'ai donc repris ma partie 4 en mettant en place un flexbox ce qui ma permis de réduire considérablement mon code.
 
-5. Je reprend donc ma partie 5. En appliquant la fonction flexbox.
+5. Je reprend donc ma partie 5. En appliquant la fonction flexbox. J'ai donc pu placé tout mes éléments. j'ai donc mis en hover mes éléments. Mon problème étant que je ne peut pas enlever le hover sur mes autres éléments mais comme je suis en retard je m'en occuperai plus tard.
 
+6. On va s'occuper du footer. Pour commencer on crée des liens afin de pouvoir cliquer sur nos menus. On met aussi en place notre footer. 
+
+
+PARTIE RESPONSIVE:
+
+PARTIE JS:
+
+1. Pour la partie js on va commencé par crée notre tableau et y mettre nos image. J'avoue que la partie js me fait enormément peur. J'ai commencé par revoir les consignes et regarder toutes sortes de tutoriel jusqu'a demander un peu d'aide. J'ai donc compris comment crée mon tableau. Néanmois il va falloir ajouter les images.
+
+2. A force de recherche et de recherche et de recherche j'avoue que je n'arrive pas à trouver des solutions. 
 
 
 

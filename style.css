@@ -5,6 +5,8 @@
     margin: 0;
     
 }
+
+
 body{
     font-family: 'Roboto';
 }
@@ -163,9 +165,31 @@ left: 135px;
     border-color: white;
     box-shadow: 3px 3px 12px rgb(212, 212, 212);
     margin-left: 150px;
+    
+     
+    
+}
+.box a{
+
+    text-decoration: none;
+    
+    
 }
 
+.titre{
+    color: black;
+   
+}
+.auteur{
+    color: #7a7a7a;
+}
+.prix{
+    color:#b3a9c5
+}
 
+.box li {
+    list-style-type: none;
+}
 /**********************************PARTIE 5: Catalogue :Les livres à moins de 20***********************/
 
 #Partie5 img{
@@ -203,12 +227,13 @@ left: 135px;
 
 .box2 div {
   
-    flex-basis: 120px;
+    flex-basis: 150px;
     border: 5px solid red;
     margin-top: 50px;
     border-radius: 3px;
     border-color: white;
     box-shadow: 3px 3px 12px rgb(212, 212, 212);
+    
 }
 
 /*Placement des textes du bloc*/
@@ -217,6 +242,7 @@ position:absolute;
 }
 .box2 a{
 margin-left:58px;
+text-decoration: none;
 }
 
 .box2 p{
@@ -224,6 +250,74 @@ margin-left: 99px;
 margin-top: 20px;
 }
 
+.box2 span{
+    position: relative;
+    left: 870px;
+    top: 20px;
+}
+/* Partie de d'ombre accentuer lorsque la souris passe*/
+
+.box2 :hover{
+    
+box-shadow: 5px 5px 20px rgb(71, 71, 71);
+}
+.paragraphe{
+    color: #d3d3d3;
+}
+
+/*Réalisation du footer en flex aussi de sorte 
+à pouvoir positionné de manière efficace nos éléments*/
+/**************************************************** FOOTER ****************************************************/
+
+.box3{
+
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    top: 100px;
+    padding-bottom: 50px;
+    background-color: #4a3174;
+
+   
+}
+
+.box3 div{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    right: 300px;
+    top: 20px;
+}
+
+.box3 img{
+    position: relative;
+    left: 200px;
+    top:5px;
+
+}
+
+h3{
+    position: relative;
+    left: 230px;
+    top: 20px;
+    color: white;
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.box3 a{
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.box3 li{
+    list-style-type: none;
+}
+    
+.box3 li :hover{
+   background-color: #5e4882;
+   border-radius: 3px;
+}
 
 
 
